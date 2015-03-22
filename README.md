@@ -1,6 +1,6 @@
 This is a fork of the official [graphviz] project, intended to work on
 necessary changes to make it possible to [emscripten] [graphviz], i.e.,
-compile it with `emcc`.
+compile it with `emcc`. The original README is [here](README-graphviz.md).
 
 [graphviz] is made available under the [Eclipse Public License
 v1.0][EPL]. This is a "derivative work", and thus released under [EPL]
@@ -8,6 +8,8 @@ too. The source code is maintained in a [GitHub repository][graphviz repo].
 
 [emscripten] is a "compiler" that "compiles" C code into JavaScript.
 [emscripten] is released under the [MIT License].
+
+- Go to the documentation on [building with emscripten](emscripten/index.md).
 
 
 
