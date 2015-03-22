@@ -34,6 +34,8 @@
 
 #define PIC_COORDS_PER_LINE (16)        /* to avoid stdio BUF overflow */
 
+int colorxlate(char *str, gvcolor_t * color, color_type_t target_type);
+
 typedef enum { FORMAT_PIC, } format_type;
 
 static int BezierSubdivision = 10;
