@@ -24,6 +24,7 @@
 #ifdef _MSC_VER
 #include <io.h>
 #endif
+#include <unistd.h>
 
 #include "gvplugin_loadimage.h"
 #include "agxbuf.h"
