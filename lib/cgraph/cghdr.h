@@ -131,6 +131,10 @@ Agdatadict_t *agdatadict(Agraph_t * g, int cflag);
 Agattr_t *agattrrec(void *obj);
 
 void agraphattr_init(Agraph_t * g);
+inline static void agraphattr_init_agobjfn(Agraph_t * g, Agobj_t * obj,
+                                           void *arg) {
+    agraphattr_init(g);
+}
 int agraphattr_delete(Agraph_t * g);
 void agnodeattr_init(Agraph_t *g, Agnode_t * n);
 void agnodeattr_delete(Agnode_t * n);
